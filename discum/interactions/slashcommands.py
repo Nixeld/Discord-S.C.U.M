@@ -15,7 +15,11 @@ class SlashCommands(object):
 	def getSlashCommands(self, applicationID):
 		url = self.discord+"applications/"+applicationID+"/commands"
 		return Wrapper.sendRequest(self.s, 'get', url, log=self.log)
-
+	
+	def getGuildSlashCommands(self, guildID):
+		url = self.discord+'guilds/'+guildID+'/application-command-index'
+		return Wrapper.sendRequest(self.s, 'get', url, log=self.log)
+	
 	def triggerSlashCommand(self, applicationID, channelID, guildID, data, nonce, sessionID):
 		url = self.discord+"interactions"
 		#nonce
