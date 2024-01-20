@@ -14,11 +14,10 @@ from setuptools import find_packages, setup, Command
 # Package meta-data.
 NAME = 'discum'
 DESCRIPTION = 'A Discord API Wrapper for Userbots/Selfbots written in Python.'
-URL = 'https://github.com/Merubokkusu/Discord-S.C.U.M'
-EMAIL = 'loser@merubokkusu.com'
+URL = 'https://github.com/Nixeld/Discord-S.C.U.M'
 AUTHOR = 'Merubokkusu'
 REQUIRES_PYTHON = '>=2.7.0'
-VERSION = '1.4.1'
+VERSION = '1.4.2'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
