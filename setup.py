@@ -16,6 +16,7 @@ NAME = 'discum'
 DESCRIPTION = 'A Discord API Wrapper for Userbots/Selfbots written in Python.'
 URL = 'https://github.com/Nixeld/Discord-S.C.U.M'
 AUTHOR = 'Merubokkusu'
+EMAIL = 'email@email.com'
 REQUIRES_PYTHON = '>=2.7.0'
 VERSION = '1.4.2'
 
