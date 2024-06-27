@@ -2,7 +2,7 @@
 # 1.4.3
 ### Changed
 - updated channelTypes
-- optimised StartParse.ready function (potential fix for all the KeyError: 'user' or KeyError: 'guilds' issues
+- optimised StartParse.ready function (potential fix for all the KeyError: 'user' or KeyError: 'guilds' issues)
 # 1.4.2
 ### Added
 - getGuildSlashCommands
